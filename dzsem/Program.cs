@@ -27,4 +27,4 @@ Console.WriteLine("Введите трехзначное число");
  {
     return number;
  }
- 
+ int mun =
