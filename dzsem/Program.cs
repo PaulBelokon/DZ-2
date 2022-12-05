@@ -21,10 +21,59 @@
 7 -> да
 1 -> нет
 */
+
+
+
+
+// 1 Задание 
+/*
 Console.WriteLine("Введите трехзначное число");
  int number = int.Parse(Console.ReadLine());
- if  (100>number>1000)
- {
-    return number;
- }
- int mun =
+ int result = number/10%10;
+ Console.Write("Ваша 2 цифра в трехназначном числе: ");
+ Console.WriteLine(result); 
+ */
+
+
+
+// ЗАДАНИЕ 2
+ /*Console.WriteLine("Введите трехзначное число");
+ int number = int.Parse(Console.ReadLine());
+if  ( number>1000)
+{
+    string number1 = number.ToString();
+    Console.WriteLine(number1[2]);
+   
+}
+else if  (number<100)
+  {
+    Console.WriteLine("Ваше число не имеет 3 цифры");
+   
+  }
+else   
+   {
+    int result = number%10;
+  Console.WriteLine(result);
+   } 
+*/
+
+
+
+
+//ЗАДАНИЕ 3
+Console.WriteLine("Введите день недели");
+int number = int.Parse(Console.ReadLine());
+if (number==1) 
+Console.WriteLine("Monday,This day is work:(");
+if (number==2) 
+Console.WriteLine("Thuesday,This day is work:(");
+if (number==3) 
+Console.WriteLine("Thriday,This day is work:(");
+if (number==4) 
+Console.WriteLine("Tuesday,This day is work:(");
+if (number==5) 
+Console.WriteLine("Friday,This day is work:(");
+if (number==6) 
+Console.WriteLine("Saturday,This day is work:(");
+if (number==7) 
+Console.WriteLine("Sunday,This day is weekend!!!:D");
